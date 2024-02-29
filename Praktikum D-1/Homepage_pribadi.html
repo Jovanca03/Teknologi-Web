@@ -9,23 +9,32 @@
             margin: 25px;
             background: url('FairyTail.jpg') center fixed;
             background-size: contain;
+            text-align: center; /* Rata tengah semua */
         }
         h1 {
             color: #ffb039;
+            margin-bottom: 20px; /* Tambahkan ruang bawah */
         }
-        .info {
-            margin-bottom: 15px;
+        .info, .hobby, .description {
+            margin-bottom: 15px; /* Tambahkan ruang bawah */
+            margin-left: auto; /* Rata tengah horizontal */
+            margin-right: auto; /* Rata tengah horizontal */
+            width: 60%; /* Atur lebar agar konten tidak terlalu lebar */
+            text-align: left; /* Kembalikan teks ke kiri */
         }
         .hobby-list {
             list-style-type: circle;
-            margin-left: 20px;
-        }
-        .description {
-            margin-top: 20px;
+            margin-left: auto; /* Rata tengah horizontal */
+            margin-right: auto; /* Rata tengah horizontal */
+            text-align: left; /* Kembalikan teks ke kiri */
         }
         .highlight {
             color: rgb(205, 14, 253);
             font-weight: bold;
+        }
+        img {
+            margin-left: auto; /* Rata tengah horizontal */
+            margin-right: auto; /* Rata tengah horizontal */
         }
     </style>
 </head>
@@ -63,8 +72,5 @@
     <img src="Bleach.gif" alt="Animasi GIF" width="480" height="250">
     <img src="OnePiece.gif" alt="Animasi GIF" width="420" height="250">
     <img src="Gintama.gif" alt="Animasi GIF" width="470" height="250">
-<audio autoplay src="EndlessTears.mp3" type="audio/mp3">
-    Your browser does not support the audio element.
-</audio>
-</body>
-</html>
+    <audio autoplay src="EndlessTears.mp3" type="audio/mp3">
+        Your browser does not support the audio element
