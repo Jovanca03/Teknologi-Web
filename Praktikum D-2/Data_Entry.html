@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage DATA ENTRY</title>
+    <style>
+        body {
+            background-image: url('classroom.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Homepage DATA ENTRY</h1>
+    <form action="#" method="post">
+        <table align="center" cellpadding="5">
+            <tr>
+                <td style="font-size: 20px;">Nama :</td>
+                <td><input type="text" name="nama" size="35"></td>
+            </tr>
+            <tr>
+                <td style="font-size: 20px;">NRP :</td>
+                <td><input type="text" name="nrp" size="35"></td>
+            </tr>
+            <tr>
+                <td style="font-size: 20px;">Kelas :</td>
+                <td><input type="text" name="kelas" size="35"></td>
+            </tr>
+            <tr>
+                <td style="font-size: 20px;">Jenis Kelamin :</td>
+                <td style="font-size: 18px;">
+                    <input type="radio" name="jenis_kelamin" value="Pria"> Pria
+                    <input type="radio" name="jenis_kelamin" value="Wanita"> Wanita
+                </td>
+            </tr>
+            <tr>
+                <td style="font-size: 20px;">Agama :</td>
+                <td>
+                        <select name="agama" size="1" style="font-size: 18px;">
+                            <option value="Islam" style="font-size: 16px;">Islam</option> 
+                            <option value="Kristen" style="font-size: 16px;">Kristen</option>
+                            <option value="Hindu" style="font-size: 16px;">Hindu</option> 
+                            <option value="Budha" style="font-size: 16px;">Budha</option> 
+                        </select>
+                    </td>                    
+                </td>
+            </tr>
+            <tr>
+                <td style="font-size: 20px;">Tempat/Tanggal Lahir :</td>
+                <td><input type="text" name="ttl" size="35"></td>
+            </tr>
+            <tr>
+                <td style="font-size: 20px;">Alamat :</td>
+                <td><textarea name="alamat" rows="4" cols="35"></textarea></td>
+            </tr>
+            <tr>
+                <td style="font-size: 20px;">Riwayat Pendidikan :</td>
+                <td style="font-size: 18px;">
+                    A. SD : <input type="text" name="sd" size="35" ><br>
+                    B. SMP : <input type="text" name="smp" size="35"><br>
+                    C. SMA : <input type="text" name="sma" size="35">
+                </td>
+            </tr>
+            <tr>
+                <td style="font-size: 20px;">Email :</td>
+                <td><input type="text" name="email" size="35"></td>
+            </tr>
+            <tr>
+                <td style="font-size: 20px;">Homepage :</td>
+                <td><input type="text" name="homepage" size="35"></td>
+            </tr>
+            <tr>
+                <td style="font-size: 20px;">Hobby :</td>
+                <td><textarea name="hobby" rows="4" cols="35"></textarea></td>
+            </tr>
+            <tr>
+                <td style="font-size: 20px;">Interest :</td>
+                <td style="font-size: 18px;">
+                    <input type="checkbox" name="interest[]" value="Komputer"> Komputer<br>
+                    <input type="checkbox" name="interest[]" value="Sport"> Sport<br>
+                    <input type="checkbox" name="interest[]" value="Travelling"> Travelling<br>
+                    <input type="checkbox" name="interest[]" value="Writing"> Writing<br>
+                    <input type="checkbox" name="interest[]" value="Reading"> Reading
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Simpan" style="font-size: 18.5px;">
+                    <input type="reset" value="Reset" style="font-size: 18.5px;">
+                </td>
+            </tr>
+        </table>
+    </form>
+    <audio autoplay loop src="darlingmeme.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+</body>
+</html>
