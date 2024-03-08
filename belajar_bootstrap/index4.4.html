@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap demo</title>
+        <link href="css/bootstrap.css" rel="stylesheet">
+</head>
+
+<body>
+        <h1>Hello, world!!</h1>
+        <script src="js/bootstrap.js"></script>
+        <div class="container text-center">
+                <div class="row">
+                        <div class="col border">
+                                1 of 3
+                        </div>
+                        <div class="col-6 border">
+                                2 of 3 (wider)
+                        </div>
+                        <div class="col border">
+                                3 of 3
+                        </div>
+                </div>
+                <div class="row">
+                        <div class="col border">
+                                1 of 3
+                        </div>
+                        <div class="col-5 border">
+                                2 of 3 (wider)
+                        </div>
+                        <div class="col border">
+                                3 of 3
+                        </div>
+                </div>
+        </div>
+        <p class="h1">h1. Bootstrap heading</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/A_black_image.jpg/640pxA_black_image.jpg"
+                class="img-fluid" alt="logo pens">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/A_black_image.jpg/640pxA_black_image.jpg"
+                class="rounded img-fluid" alt="logo pens">
+
+        <table class="table table-primary">
+                <thead>
+                        <tr table-primary>
+                                <th scope="col">#</th>
+                                <th scope="col">First</th>
+                                <th scope="col">Last</th>
+                                <th scope="col">Handle</th>
+                        </tr>
+                </thead>
+                <tbody>
+                        <tr table-primary>
+                                <th scope="row">1</th>
+                                <td table-primary>Mark</td>
+                                <td table-primary>Otto</td>
+                                <td table-primary>@mdo</td>
+                        </tr>
+                        <tr table-primary>
+                                <th scope="row">2</th>
+                                <td table-primary>Jacob</td>
+                                <td table-primary>Thornton</td>
+                                <td table-primary>@fat</td>
+                        </tr>
+                        <tr table-primary>
+                                <th scope="row">3</th>
+                                <td table-primary colspan="2">Larry the Bird</td>
+                                <td table-primary>@twitter</td>
+                        </tr>
+                </tbody>
+        </table>
+        <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                        <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Accordion Item #1
+                                </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                        <strong>Item 1</strong>: konten
+                                </div>
+                        </div>
+                </div>
+                <div class="accordion-item">
+                        <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Accordion Item #2
+                                </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                        <strong>Item 2</strong>: konten
+                                </div>
+                        </div>
+                </div>
+                <div class="accordion-item">
+                        <h2 class="accordion-header"> <button class="accordion-button collapsed" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                                        ariacontrols="collapseThree">
+                                        Accordion Item #3 </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                        <strong>Item 3</strong>: konten
+                                </div>
+                        </div>
+                </div>
+        </div>
+        <div class="alert alert-primary" role="alert">
+                A simple primary alert—check it out!
+        </div>
+        <div class="alert alert-secondary" role="alert">
+                A simple secondary alert—check it out!
+        </div>
+        <div class="alert alert-success" role="alert">
+                A simple success alert—check it out!
+        </div>
+        <div class="alert alert-danger" role="alert">
+                A simple danger alert—check it out!
+        </div>
+        <div class="alert alert-warning" role="alert">
+                A simple warning alert—check it out!
+        </div>
+        <div class="alert alert-info" role="alert">
+                A simple info alert—check it out!
+        </div>
+        <div class="alert alert-light" role="alert">
+                A simple light alert—check it out!
+        </div>
+        <div class="alert alert-dark" role="alert">
+                A simple dark alert—check it out!
+        </div>
+
+        <button type="button" class="btn btn-primary">Primary</button>
+        <button type="button" class="btn btn-secondary">Secondary</button>
+        <button type="button" class="btn btn-success">Success</button>
+        <button type="button" class="btn btn-danger">Danger</button>
+        <button type="button" class="btn btn-warning">Warning</button>
+        <button type="button" class="btn btn-info">Info</button>
+        <button type="button" class="btn btn-light">Light</button>
+        <button type="button" class="btn btn-dark">Dark</button>
+        <button type="button" class="btn btn-link">Link</button>
+
+        <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up
+                                the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+        </div>
+</body>
+
+</html>
