@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\NewProfileController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
@@ -10,6 +11,8 @@ Route::get('/', function () {
 Route::get('/mypage', function () {
     return view('mypage');
 });
+
+Route::get('/myprofile', [NewProfileController::class, 'index']);
 
 Route::get('/dashboard', function () {
     return view('dashboard');
